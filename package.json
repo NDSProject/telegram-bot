@@ -1,0 +1,47 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jest.config.json --ci --runInBand --detectOpenHandles --forceExit --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NDSProject/telegram-bot.git"
+  },
+  "author": "https://github.com/Fazendaaa/",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/NDSProject/telegram-bot/issues"
+  },
+  "homepage": "https://github.com/NDSProject/telegram-bot#readme",
+  "devDependencies": {
+    "@types/graphql": "^14.5.0",
+    "@types/jest": "^26.0.13",
+    "@types/mongoose": "^5.7.36",
+    "@types/node": "^14.6.4",
+    "@types/redis": "^2.8.27",
+    "@types/webpack": "^4.41.22",
+    "codecov": "^3.7.2",
+    "husky": "^4.2.5",
+    "jest": "^26.4.2",
+    "telegram-typings": "^4.0.0-beta",
+    "ts-jest": "^26.3.0",
+    "ts-loader": "^8.0.3",
+    "ts-node": "^9.0.0",
+    "tslint-microsoft-contrib": "^6.2.0",
+    "typescript": "^4.0.2",
+    "webpack-graphql-loader": "^1.0.2"
+  },
+  "dependencies": {
+    "google-translate": "^3.0.0",
+    "moment": "^2.27.0",
+    "moment-timezone": "^0.5.31",
+    "mongoose": "^5.10.3",
+    "redis": "^3.0.2",
+    "telegraf": "^3.38.0",
+    "telegraf-i18n": "^6.6.0",
+    "telegraf-session-redis": "^5.1.0"
+  }
+}
