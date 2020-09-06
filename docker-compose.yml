@@ -44,4 +44,9 @@ services:
     command: npm run serve
     depends_on:
       - cache-gui
+    environment:
+      - REDIS_URL=redis://cache:6379
+      - MONGODB_URI=mongodb://database/bot?retryWrites=true&w=majority
+      - GOOGLE_KEY=
+      - BOT_KEY=
     restart: on-failure

@@ -1,0 +1,25 @@
+name: Test
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: test
+        uses: ./
+        id: test
+      - name: npm test
+        run: npm test
+      - name: build and push Docker images
+        uses: docker/build-push-action@v1
+        with:
+          username: ${{ secretes.DOCKER_USERNAME }}
+          password: ${{ secretes.DOCKER_PASSWORD }}
+          repository: fazenda/nds-telegram-bot
+          tags: github
