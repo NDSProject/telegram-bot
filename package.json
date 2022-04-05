@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "google-translate": "^3.0.0",
-    "moment": "^2.27.0",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.31",
     "mongoose": "^5.10.3",
     "redis": "^3.0.2",
