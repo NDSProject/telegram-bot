@@ -41,7 +41,7 @@
     "google-translate": "^3.0.0",
     "moment": "^2.27.0",
     "moment-timezone": "^0.5.31",
-    "mongoose": "^5.10.3",
+    "mongoose": "^5.13.20",
     "redis": "^3.0.2",
     "telegraf": "^3.38.0",
     "telegraf-i18n": "^6.6.0",
